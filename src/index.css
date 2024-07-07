@@ -1,0 +1,30 @@
+html{
+  font-size: 62.5%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+  background-color: black;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+  margin: 0;
+  padding: 0; 
+  background-color: #e2e2e3;
+
+  background-color: black;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}

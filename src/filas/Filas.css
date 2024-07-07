@@ -1,0 +1,405 @@
+.fila{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;  
+    width: 70%;
+    margin: 0 auto;
+  
+    animation-name: volar;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+  }
+  @media (min-width: 768px) { 
+    .fila{
+        width: 60%;
+    }
+
+  }
+  @media (min-width: 1024px) { 
+    .fila{
+        width: 50%;
+    }
+  }
+  @keyframes volar {
+    0%{
+      margin: 0 15%;
+    }
+    2.5%{
+      margin: 3px 13.5% 0 auto;
+    }
+    5%{
+      margin: 6px 12% 0 auto;
+    }
+    7.5%{
+      margin: 3px 10.5% 0 auto;
+    }
+    10%{
+      margin: 0 9% 0 auto;
+    }
+    12.5%{
+      margin: 3px 7.5% 0 auto;
+    }
+    15%{
+      margin: 6px 4.5% 0 auto;
+    }
+    17.5%{
+      margin: 3px 4.5% 0 auto;
+    }
+    20%{
+      margin: 0 3% 0 auto;
+    }
+    22.5%{
+      margin: 3px 1.5% 0 auto;
+    }
+    25%{
+      margin: 6px 0 0 auto;
+    }
+    27.5%{
+      margin: 3px 1.5% 0 auto;
+    }
+    30%{
+      margin: 0 3% 0 auto;
+    }
+    32.5%{
+      margin: 3px 4.5% 0 auto;
+    }
+    35%{
+      margin: 6px 6% 0 auto;
+    }
+    37.5%{
+      margin: 3px 7.5% 0 auto;
+    }
+    40%{
+      margin: 0 9% 0 auto;
+    }
+    42.5%{
+      margin: 3px 10.5% 0 auto;
+    }
+    45%{
+      margin: 6px 12% 0 auto;
+    }
+    47.5%{
+      margin: 3px 13.5% 0 auto;
+    }
+    50%{
+      margin: 0 15% 0 auto;
+    }
+    52.5%{
+      margin: 3px 17.5% 0 auto;
+    }
+    55%{
+      margin: 6px 18% 0 auto;
+    }
+    57.5%{
+      margin: 3px 19.5% 0 auto;
+    }
+    60%{
+      margin: 0 21% 0 auto;
+    }
+    62.5%{
+      margin: 3px 22.5% 0 auto;
+    }
+    65%{
+      margin: 6px 24% 0 auto;
+    }
+    67.5%{
+      margin: 3px 25.5% 0 auto;
+    }
+    70%{
+      margin: 0 27% 0 auto;
+    }
+    72.5%{
+      margin: 3px 28.5% 0 auto;
+    }
+    75%{
+      margin: 6px 30% 0 auto;
+    }
+    77.5%{
+      margin: 3px 28.5% 0 auto;
+    }
+    80%{
+      margin: 0 27% 0 auto;
+    }
+    82.5%{
+      margin: 3px 25.5% 0 auto;
+    }
+    85%{
+      margin: 6px 24% 0 auto;
+    }
+    87.5%{
+      margin: 3px 22.5% 0 auto;
+    }
+    90%{
+      margin: 0 21% 0 auto;
+    }
+    92.5%{
+      margin: 3px 19.5% 0 auto;
+    }
+    95%{
+      margin: 6px 18% 0 auto;
+    }
+    97.5%{
+      margin: 3px 16.5% 0 auto;
+    }
+    100%{
+      margin: 0 15% 0 auto;
+    }
+  }
+  @media (min-width: 768px) { 
+    @keyframes volar {
+        0%{
+          margin: 0 20%;
+        }
+        2.5%{
+          margin: 3px 18% 0 auto;
+        }
+        5%{
+          margin: 6px 16% 0 auto;
+        }
+        7.5%{
+          margin: 3px 14% 0 auto;
+        }
+        10%{
+          margin: 0 12% 0 auto;
+        }
+        12.5%{
+          margin: 3px 10% 0 auto;
+        }
+        15%{
+          margin: 6px 8% 0 auto;
+        }
+        17.5%{
+          margin: 3px 6% 0 auto;
+        }
+        20%{
+          margin: 0 4% 0 auto;
+        }
+        22.5%{
+          margin: 3px 2% 0 auto;
+        }
+        25%{
+          margin: 6px 0 0 auto;
+        }
+        27.5%{
+          margin: 3px 2% 0 auto;
+        }
+        30%{
+          margin: 0 4% 0 auto;
+        }
+        32.5%{
+          margin: 3px 6% 0 auto;
+        }
+        35%{
+          margin: 6px 8% 0 auto;
+        }
+        37.5%{
+          margin: 3px 10% 0 auto;
+        }
+        40%{
+          margin: 0 12% 0 auto;
+        }
+        42.5%{
+          margin: 3px 14% 0 auto;
+        }
+        45%{
+          margin: 6px 16% 0 auto;
+        }
+        47.5%{
+          margin: 3px 18% 0 auto;
+        }
+        50%{
+          margin: 0 20% 0 auto;
+        }
+        52.5%{
+          margin: 3px 22% 0 auto;
+        }
+        55%{
+          margin: 6px 24% 0 auto;
+        }
+        57.5%{
+          margin: 3px 26% 0 auto;
+        }
+        60%{
+          margin: 0 28% 0 auto;
+        }
+        62.5%{
+          margin: 3px 30% 0 auto;
+        }
+        65%{
+          margin: 6px 32% 0 auto;
+        }
+        67.5%{
+          margin: 3px 34% 0 auto;
+        }
+        70%{
+          margin: 0 36% 0 auto;
+        }
+        72.5%{
+          margin: 3px 38% 0 auto;
+        }
+        75%{
+          margin: 6px 40% 0 auto;
+        }
+        77.5%{
+          margin: 3px 38% 0 auto;
+        }
+        80%{
+          margin: 0 36% 0 auto;
+        }
+        82.5%{
+          margin: 3px 34% 0 auto;
+        }
+        85%{
+          margin: 6px 32% 0 auto;
+        }
+        87.5%{
+          margin: 3px 30% 0 auto;
+        }
+        90%{
+          margin: 0 28% 0 auto;
+        }
+        92.5%{
+          margin: 3px 24% 0 auto;
+        }
+        95%{
+          margin: 6px 22% 0 auto;
+        }
+        97.5%{
+          margin: 3px 20% 0 auto;
+        }
+        100%{
+          margin: 0 20% 0 auto;
+        }
+      }
+      
+  }
+
+  @media (min-width: 1024px) { 
+    @keyframes volar {
+        0%{
+          margin: 0 25%;
+        }
+        2.5%{
+          margin: 3px 22.5% 0 auto;
+        }
+        5%{
+          margin: 6px 20% 0 auto;
+        }
+        7.5%{
+          margin: 3px 17.5% 0 auto;
+        }
+        10%{
+          margin: 0 15% 0 auto;
+        }
+        12.5%{
+          margin: 3px 12.5% 0 auto;
+        }
+        15%{
+          margin: 6px 10% 0 auto;
+        }
+        17.5%{
+          margin: 3px 7.5% 0 auto;
+        }
+        20%{
+          margin: 0 5% 0 auto;
+        }
+        22.5%{
+          margin: 3px 2.5% 0 auto;
+        }
+        25%{
+          margin: 6px 0 0 auto;
+        }
+        27.5%{
+          margin: 3px 2.5% 0 auto;
+        }
+        30%{
+          margin: 0 5% 0 auto;
+        }
+        32.5%{
+          margin: 3px 7.5% 0 auto;
+        }
+        35%{
+          margin: 6px 10% 0 auto;
+        }
+        37.5%{
+          margin: 3px 12.5% 0 auto;
+        }
+        40%{
+          margin: 0 15% 0 auto;
+        }
+        42.5%{
+          margin: 3px 17.5% 0 auto;
+        }
+        45%{
+          margin: 6px 20% 0 auto;
+        }
+        47.5%{
+          margin: 3px 22.5% 0 auto;
+        }
+        50%{
+          margin: 0 25% 0 auto;
+        }
+        52.5%{
+          margin: 3px 27.5% 0 auto;
+        }
+        55%{
+          margin: 6px 30% 0 auto;
+        }
+        57.5%{
+          margin: 3px 32.5% 0 auto;
+        }
+        60%{
+          margin: 0 35% 0 auto;
+        }
+        62.5%{
+          margin: 3px 37.5% 0 auto;
+        }
+        65%{
+          margin: 6px 40% 0 auto;
+        }
+        67.5%{
+          margin: 3px 42.5% 0 auto;
+        }
+        70%{
+          margin: 0 45% 0 auto;
+        }
+        72.5%{
+          margin: 3px 47.5% 0 auto;
+        }
+        75%{
+          margin: 6px 50% 0 auto;
+        }
+        77.5%{
+          margin: 3px 47.5% 0 auto;
+        }
+        80%{
+          margin: 0 45% 0 auto;
+        }
+        82.5%{
+          margin: 3px 42.5% 0 auto;
+        }
+        85%{
+          margin: 6px 40% 0 auto;
+        }
+        87.5%{
+          margin: 3px 37.5% 0 auto;
+        }
+        90%{
+          margin: 0 35% 0 auto;
+        }
+        92.5%{
+          margin: 3px 32.5% 0 auto;
+        }
+        95%{
+          margin: 6px 30% 0 auto;
+        }
+        97.5%{
+          margin: 3px 27.5% 0 auto;
+        }
+        100%{
+          margin: 0 25% 0 auto;
+        }
+      }
+      
+  }

@@ -1,0 +1,67 @@
+.invader{
+    width: 2.5rem;
+    height: 2.5rem;
+
+    background-size: cover;
+    animation-name: Flying;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+
+    background-repeat: no-repeat;
+    opacity: 1;
+
+    transition: opacity;
+    transition-delay: 0.3s;
+}
+.dead{
+    opacity: 0;
+    animation: none;
+    background-image: url("./../../public/explosion.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+@keyframes Flying {
+    0%{
+        background-image: url(./../../public/static_invader-removebg-preview.png);
+        background-position: center bottom;
+    }
+    20%{
+        background-image: url(./../../public/flying_invader-removebg-preview.png);
+        background-position: center top;
+    }
+    30%{
+        background-image: url(./../../public/static_invader-removebg-preview.png);
+        background-position: center bottom;
+    }
+    40%{
+        background-image: url(./../../public/flying_invader-removebg-preview.png);
+        background-position: center top;
+    }
+    50%{
+        background-image: url(./../../public/static_invader-removebg-preview.png);
+        background-position: center bottom;
+    }
+
+    60%{
+        background-image: url(./../../public/static_invader-removebg-preview.png);
+        background-position: center top;
+    }
+    70%{
+        background-image: url(./../../public/flying_invader-removebg-preview.png);
+        background-position: center bottom;
+    }
+    80%{
+        background-image: url(./../../public/static_invader-removebg-preview.png);
+        background-position: center top;
+    }
+    90%{
+        background-image: url(./../../public/flying_invader-removebg-preview.png);
+        background-position: center bottom;
+    }
+    100%{
+        background-image: url(./../../public/static_invader-removebg-preview.png);
+        background-position: center top;
+    }
+}

@@ -1,0 +1,99 @@
+.avion__container{
+    width: 10.5rem;;
+    margin-top: auto;
+    margin-bottom: 10rem;
+    animation-name: avionAnimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+.avion__img{
+    position: fixed;
+
+    width: 5rem;
+    height: 7.5rem;
+
+    bottom: 12rem;
+
+    transition: transform;
+    transition-duration: 0.3s;
+
+    background-image: url(../../public/avion.png);
+    background-size: cover;
+    background-position: center;
+}   
+.avion__flama{
+    position: fixed;
+    bottom: 8.5rem;
+
+    transition: transform;
+    transition-duration: 0.35s;
+
+    background-image: url(../../public/flama.png);
+    background-size: cover;
+    background-position: center;
+
+    height: 4rem;
+    width: 2rem;
+}
+.shoot{
+    position: absolute;
+    content: "";
+    display: block;
+
+    width: 1.5rem;
+    height: 3rem;
+    opacity: 1;
+
+    transition: transform 5s, opacity 0.3s;
+
+
+    transform: translateY(0);
+}
+.inactive{
+    opacity: 0;
+  }
+  .misil{
+    height: 100%;
+    width: 100%;
+
+    background-image: url(../../public/misil.gif);
+    background-position: center;
+    background-size: cover;
+  }
+@keyframes avionAnimation {
+    0%{
+        transform: translateY(0);
+    }
+    10%{
+        transform: translateY(1rem);
+    }
+    20%{
+        transform: translateY(2rem);
+    }
+    30%{
+        transform: translateY(3rem);
+    }
+    40%{
+        transform: translateY(4rem);
+    }
+    50%{
+        transform: translateY(5rem);
+    }
+    60%{
+        transform: translateY(4rem);
+    }
+    70%{
+        transform: translateY(3rem);
+    }
+    80%{
+        transform: translateY(2rem);
+    }
+    90%{
+        transform: translateY(1rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}

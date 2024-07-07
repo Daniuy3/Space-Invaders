@@ -1,0 +1,44 @@
+.container{
+  width: 100%;
+  height: 100dvh;
+
+  margin: 0 auto; 
+  padding: 5rem 0;
+
+  background-image: url("./../public/universe_mobile.jpeg");
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 768px) { 
+  .container{
+    width: 768px;
+    margin: 0 auto;
+  }
+}
+.heading{
+  color: black;
+  text-align: center;
+}
+.container__active{
+  position: fixed;
+  z-index: 3;
+
+  background-color: black;
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  transition: background-color;
+  transition-duration: 1s;
+}
+.container__inactive{
+  background-color: transparent;
+}
+
+
