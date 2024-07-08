@@ -57,7 +57,7 @@
 
     z-index: 3;
 }
-@media (min-width: 768px) { 
+@media (min-width: 1024px) { 
     .buttons__grid{
         display: none;
     }
